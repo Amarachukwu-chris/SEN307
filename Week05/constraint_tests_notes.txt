@@ -1,0 +1,21 @@
+VUA-SEN307 Week 5 Practical — Lab 3
+Submission notes
+
+1. Constraint tests
+- NOT NULL test: should fail because dept_name cannot be NULL.
+- CHECK test: should fail because credit_units must be between 1 and 6.
+- FOREIGN KEY test: should fail because department 999 does not exist.
+- ENUM test: should fail because gender must be M or F.
+- UNIQUE test: the second identical Department name should fail.
+
+2. Verification
+Run the SHOW TABLES, DESCRIBE statements, and SHOW CREATE TABLE Enrolment
+from schema.sql in MySQL Workbench and save screenshots.
+
+3. ERD
+After the tables are created, use:
+Database -> Reverse Engineer
+Select the sen307_<your_matric_number> database.
+Export the resulting EER diagram as lab3_erd.png.
+
+
